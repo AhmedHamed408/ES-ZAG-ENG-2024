@@ -1,23 +1,29 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 
 int main(void)
 {
-unsigned int num, count = 0;
-printf("Enter an integer number:\n");
-scanf("%d", &num);
-for (int i = 1; i <= num; i++)
-{
-    if (num % i == 0)
-    count++;
-}
+            float flt = 123456.789;
+          printf("%+010.2f" , flt);
 
-if (count > 2)
-    {
-    printf("The number %d is not a prime number , Because He accepted to divid at more than %d numbers\n", num , count);
-    }
-else
-    {
-    printf("The number %d is a prime number\n ", num );
-    }
+  return 0;
+}
+*/
+#include <stdio.h>
+
+int main(void)
+{
+            while (1)
+            {
+                static int i =0 ;
+                i += 5;
+                if (!(++i % 10))
+                {
+                    break;
+                }
+            }
+
+
+
+
 }
