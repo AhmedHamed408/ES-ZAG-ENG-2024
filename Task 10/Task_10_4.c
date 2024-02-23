@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+    int factorial( int factnum);
 
 int main()
 {
 
-    int factorial( int factnum);
     int num;
     int Resault ;
 
@@ -15,7 +15,7 @@ int main()
 
 
     int factresult = factorial(num);
-    printf("the factorial is = %d1\n",factresult );
+    printf("the factorial is = %i \n",factresult );
 
     return 0;
 }
@@ -24,16 +24,16 @@ int main()
 
 int factorial( int factnum)
 {
-    int Resault =0;
+    int resault =0;
 
     if (factnum == 0)
     {
-        Resault = 1;
+        resault = 1;
     }
     else
     {
-        Resault = factnum * factorial(factnum - 1);
+        resault = factnum * factorial(factnum - 1);
     }
 
-    return Resault;
+    return resault;
 }
