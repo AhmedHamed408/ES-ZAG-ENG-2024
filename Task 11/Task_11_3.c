@@ -39,4 +39,3 @@ scanf("%i", &(ptr->bonus));
 printf("Please Enter %s Deduction : ",(ptr->name));
 scanf("%i", &(ptr->deduction));
 }
-
